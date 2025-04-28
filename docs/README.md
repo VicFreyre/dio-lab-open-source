@@ -1,27 +1,41 @@
-<h1>
-    <a href="https://www.dio.me/">
-     <img align="center" width="40px" src="https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png"></a>
-    <span> Profiles README DIO</span>
-</h1>
+# Profiles README DIO
 
 ## Sobre o Projeto
-Página desenvolvida para fins didáticos para o curso **Contribuindo em um Projeto Open Source no GitHub** da [Digital Innovation One](https://www.dio.me/). Lembre-se de que Markdown é mais voltado para a documentação e apresentação de texto formatado, enquanto a remoção de bugs normalmente envolve a compreensão detalhada do código e o uso de ferramentas de desenvolvimento adequadas à linguagem de programação específica.
 
-[![Preview](https://img.shields.io/badge/Preview-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://digitalinnovationone.github.io/dio-lab-open-source/)
+Este projeto foi desenvolvido para fins didáticos, como parte do curso **Contribuindo em um Projeto Open Source no GitHub** oferecido pela **Digital Innovation One**. O objetivo é demonstrar como um projeto pode ser estruturado de maneira simples, utilizando **HTML** e **CSS**, com foco em boas práticas de desenvolvimento e contribuição em projetos open source.
 
-```
-docs/
-├── assets/
-│   ├── css/
-│   │   └── styles.css
-│   └── js/
-│       └── scripts.js
-├── favicon.ico
-├── index.html
-└── README.md
-```
+Lembre-se de que o **Markdown** é utilizado principalmente para documentação e apresentação de texto formatado. Já a **remoção de bugs** geralmente exige um entendimento profundo do código e o uso de ferramentas específicas para a linguagem de programação em questão.
 
-## Tecnologias
-![HTML](https://img.shields.io/badge/HTML-000?style=for-the-badge&logo=html5&logoColor=30A3DC)
-![CSS](https://img.shields.io/badge/CSS-000?style=for-the-badge&logo=css3&logoColor=E94D5F)
-![JavaScript](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=30A3DC)
+## Estrutura do Projeto
+
+Abaixo está a estrutura de diretórios e arquivos do projeto:
+
+
+### Explicação dos Arquivos
+
+- **docs/**: Pasta principal contendo todos os arquivos do projeto.
+  - **assets/**: Contém os recursos estáticos do projeto.
+    - **css/**: Arquivos de estilo (CSS).
+    - **js/**: Arquivos de script (JavaScript).
+  - **favicon.ico**: Ícone do site.
+  - **index.html**: Página principal do projeto.
+  - **README.md**: Este arquivo, que descreve o projeto e como usá-lo.
+
+## Tecnologias Utilizadas
+
+- **HTML**: Para a estruturação do conteúdo da página.
+- **CSS**: Para o design e estilização visual do conteúdo.
+- **JavaScript**: (Se houver) Para funcionalidades dinâmicas (no caso, incluído em `scripts.js`).
+
+## Como Contribuir
+
+1. **Fork o repositório**: Faça um fork do projeto para sua conta no GitHub.
+2. **Clone o repositório**: Clone o repositório para o seu ambiente local com o comando:
+   ```bash
+   git clone https://github.com/seu-usuario/perfil-dio.git
+   
+git checkout -b nome-da-branch
+
+git add .
+git commit -m "Descrição da sua contribuição"
+git push origin nome-da-branch
